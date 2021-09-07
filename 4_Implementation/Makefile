@@ -11,9 +11,9 @@ else
 endif
 
 
-build= main.c features.c features.h
-	gcc main.c features.c features.h  -o raja.out
-run:target
-	./a.out
+build: main.c features.c features.h
+	gcc main.c features.c features.h  -o g.out
+run:
+	./g.out
 clean:
 	rm *.out
